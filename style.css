@@ -1,0 +1,39 @@
+:root {
+    --color-fondo: #363636;
+    --color-primario: #D2406D;
+    --color-secundario: #C97590;
+    --color-texto: white;
+    --color-boton-wpp: #25D366;
+    --fuente-principal: Arial, sans-serif;
+}
+body{
+    background-color: var(--color-secundario) ;
+}
+.enlaces{
+    color: var(--color-fondo);
+    font-size: 20px;
+}
+.titulo{
+    background-color: var(--color-primario);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+.subtitulos{
+    background-color: var(--color-primario);
+    text-align: center;
+    font-size: 24px;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+.texto{
+    font-size: 25px;
+}
+.whatsapp-btn{
+    width: 10%;
+}
+.img2{
+    width: 20%;
+}
